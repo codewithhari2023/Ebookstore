@@ -4,6 +4,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "paths": {
+      "ngx-lottie": ["node_modules/ngx-lottie"],
+    
+      // Other paths if needed
+  },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
